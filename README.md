@@ -1,8 +1,21 @@
-# React + Vite
+# Web Based Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web based calculator used for calculation. It have the following functionality:
 
-Currently, two official plugins are available:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Percentage calculation
+6. Show results
+7. Delete wrongly inputed number
+8. Clear output
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tools and Technologies
+
+1. Vite.js
+2. React.js
+3. TypeScript
+4. TailwindCss
+
+[Live Site](https://calculator-ashen-eight-15.vercel.app/)
