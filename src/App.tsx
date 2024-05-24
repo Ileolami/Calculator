@@ -1,5 +1,5 @@
+import React from 'react'
 import { useState } from 'react'
-
 import './App.css'
 
 function App() {
@@ -32,9 +32,9 @@ function App() {
     };
   return (
     <main className="flex justify-center items-center h-screen bg-gray-200">
-    <div className="p-10 bg-white rounded-2xl shadow">
-      <div className="grid grid-cols-4 gap-4">
-      <input type="text" className="col-span-4 p-2 bg-black bg-opacity-20 rounded-lg text-right" value={input} readOnly placeholder='0' />
+      <div className="p-10 bg-white rounded-2xl shadow">
+        <div className="grid grid-cols-4 gap-4">
+          <input type="text" className="col-span-4 p-2 bg-black bg-opacity-20 rounded-lg text-right" value={input} readOnly placeholder='0' />
           <button onClick={() => handleClick("AC")} className="py-2 px-4 bg-red-500 text-white rounded">AC</button>
           <button onClick={() => handleClick("C")} className="py-2 px-4 bg-red-500 text-white rounded">C</button>
           <button onClick={() => handleClick("%")} className="py-2 px-4 bg-red-500 text-white rounded">%</button>
@@ -54,9 +54,9 @@ function App() {
           <button onClick={() => handleClick("0")} className=" col-span-2 py-2 px-4 bg-blue-500 text-white rounded">0</button>
           <button onClick={() => handleClick(".")} className="py-2 px-4 bg-blue-500 text-white rounded">.</button>
           <button onClick={() => handleClick("=")} className="py-2 px-4 bg-green-500 text-white rounded">=</button>
+        </div>
       </div>
-    </div>
-  </main>
+</main>
   )
 }
 
