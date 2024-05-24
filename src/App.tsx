@@ -3,9 +3,9 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState<string>("");
 
-  const handleClick = (value) => {
+  const handleClick = (value: string) => {
     if (value === "AC") {
       setInput("0");
     } else if (value === "C") {
